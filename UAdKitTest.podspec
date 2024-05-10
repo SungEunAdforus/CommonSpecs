@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "UAdKitTest"
-    s.version      = "1.0.1"
+    s.version      = "1.0.1.0"
     s.summary      = "A brief description of UAdFramework project."
     s.description  = <<-DESC
     An extended description of MyFramework project.
@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
     s.source       = { :git => "https://github.com/SungEunAdforus/UAdLib.git", :tag => s.version.to_s}
     
     s.subspec 'UAdTest' do |subs|
+        subs.preserve_paths = "Frameworks/UAdFramework.xcframework"
         subs.vendored_frameworks = "Frameworks/UAdFramework.xcframework"
 
         subs.dependency "Alamofire", "5.9.1"
