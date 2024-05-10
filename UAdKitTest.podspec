@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "UAdKitTest"
-    s.version      = "1.0.1.1"
+    s.version      = "1.0.1.2"
     s.summary      = "A brief description of UAdFramework project."
     s.description  = <<-DESC
     An extended description of MyFramework project.
