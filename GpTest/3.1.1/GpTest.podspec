@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
     s.author           = { 'SungEunAdforus' => 'jennet@adforus.co.kr' }
     s.source       = { :git => "https://github.com/SungEunAdforus/GreenpLib.git", :tag => s.version.to_s}
     
-    s.vendored_frameworks = "Frameworks/GreenpOfferwall.xcframework"
+    s.vendored_frameworks = 'Frameworks/GreenpOfferwall.xcframework', 'Frameworks/Flutter.xcframework'
 
     s.dependency "Alamofire", "5.9.1"
     s.dependency "Kingfisher", "7.11.0"
