@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "GreenpTest"
-    s.version      = "3.1.1.0.1"
+    s.version      = "3.1.2.0"
     s.summary      = "A brief description of GreepOfferwall project."
     s.description  = <<-DESC
     An extended description of GreepOfferwall project.
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
     
     s.vendored_frameworks = "Frameworks/GreenpOfferwall.xcframework", 'Frameworks/Flutter.xcframework'
 
-    s.dependency "UAdKit", "1.0.1"
+    s.dependency "UAdKit", "1.0.3"
     s.dependency "Kingfisher", "7.11.0"
     s.dependency "SnapKit", "5.7.1"
 
