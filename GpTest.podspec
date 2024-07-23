@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "GpTest"
-    s.version      = "3.2.1"
+    s.version      = "3.3.0"
     s.summary      = "A brief description of GreepOfferwall project."
     s.description  = <<-DESC
     An extended description of GreepOfferwall project.
