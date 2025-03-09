@@ -1,6 +1,7 @@
 Pod::Spec.new do |s|
     s.name         = "GreenpTest"
-    s.version      = "3.4.0.0"
+    s.version      = "3.5.0"
+
     s.summary      = "A brief description of GreepOfferwall project."
     s.description  = <<-DESC
     An extended description of GreepOfferwall project.
@@ -13,15 +14,11 @@ Pod::Spec.new do |s|
                 }
     s.author           = { 'SungEunAdforus' => 'jennet@adforus.co.kr' }
     s.source       = { :git => "https://github.com/SungEunAdforus/GreenpExsLib.git", :tag => s.version.to_s}
-    
-    s.vendored_frameworks = "Frameworks/GreenpOfferwall.xcframework", 'Frameworks/Flutter.xcframework'
 
-    s.dependency "UAdKit", "1.0.3"
-    s.dependency "Kingfisher", "7.11.0"
-    s.dependency "SnapKit", "5.7.1"
+    s.vendored_frameworks = "Frameworks/GreenpOfferwall.xcframework", 'Frameworks/Flutter.xcframework'
 
     s.platform = :ios
     s.ios.deployment_target = '14.0'
-    s.swift_version = '5.9'
+    s.swift_version = '6.0'
 
 end
