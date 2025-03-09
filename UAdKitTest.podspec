@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "UAdKitTest"
-    s.version      = "1.0.2.1"
+    s.version      = "1.1.0"
     s.summary      = "A brief description of UAdFramework project."
     s.description  = <<-DESC
     An extended description of MyFramework project.
@@ -16,14 +16,12 @@ Pod::Spec.new do |s|
     
     s.vendored_frameworks = "Frameworks/UAdFramework.xcframework"
 
-    s.dependency "Alamofire", "5.9.1"
-    s.dependency "Google-Mobile-Ads-SDK", "11.5.0"
-    s.dependency "GoogleMobileAdsMediationAppLovin", "12.5.0.0"
-    s.dependency "GoogleMobileAdsMediationPangle", "5.9.0.9.0"
-    s.dependency "GoogleMobileAdsMediationUnity", "4.11.3.1"
+    s.dependency "Google-Mobile-Ads-SDK", ">= 12.0.0", "< 12.1.0"
+    s.dependency "GoogleMobileAdsMediationPangle", ">= 6.4.1.2.1", "< 6.5.0.8.0"
+    s.dependency "GoogleMobileAdsMediationUnity", "4.13.1.1"
 
     s.platform = :ios
     s.ios.deployment_target = '14.0'
-    s.swift_version = '5.9'
+    s.swift_version = '6.0'
 
 end
